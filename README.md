@@ -112,4 +112,4 @@ In the dialog that appears:
 Connection Type: Select Rserve.
 Host: Enter the hostname (e.g., localhost if running locally).
 Port: Enter the port number (default is 6311 for Rserve).
-Close the dialog and you are set!
+Close the dialog.
