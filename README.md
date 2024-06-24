@@ -107,4 +107,8 @@ if (length(table(.arg2)) != 2){
 1. **Install R and Rserve**: Follow the instructions to install R from [CRAN](https://cran.r-project.org/) and install Rserve by running `install.packages("Rserve")` in R.
 2. **Start Rserve**: Start Rserve by running `Rserve()` in your R console.
 3. **Connect Tableau to Rserve**:
-   - In Tableau, go to `Help` >
+   - In Tableau, go to `Help` > Settings and Performance > Manage External Service Connection.
+In the dialog that appears:
+Connection Type: Select Rserve.
+Host: Enter the hostname (e.g., localhost if running locally).
+Port: Enter the port number (default is 6311 for Rserve).
