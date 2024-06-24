@@ -11,11 +11,11 @@ The primary purpose of this workbook is to:
 
 ## Introduction
 
-In today's data-driven world, making informed decisions based on statistical analysis is crucial. This project showcases the integration of t-tests, a fundamental statistical test, into interactive dashboards. By leveraging Tableau and R, this workbook allows users to perform rigorous data analysis and visualize the results in a user-friendly manner. Whether you're a data analyst, researcher, or decision-maker, this tool will help you draw meaningful insights from your data.
+In today's data-driven world, making informed decisions based on statistical analysis is crucial. This project showcases the integration of t-tests, a fundamental statistical test, into interactive dashboards. By leveraging Tableau and R, this workbook allows users to perform data analysis to explore the differences between two groups.
 
 ## Project Description
 
-This project aims to showcase the application of statistical tests, specifically t-tests, in interactive dashboards created with Tableau. By incorporating these statistical methods, users can perform rigorous data analysis and draw meaningful insights directly within their visualizations.
+This project showcases the application of statistical tests, specifically t-tests, in interactive dashboards created with Tableau. By incorporating these statistical methods, users can perform data analysis and draw meaningful insights directly within their visualizations.
 
 ### Features
 - **Interactive Dashboards**: Dynamic navigation through the dashboard to see t-tests and effect size calculations in action based on user-selected groups.
@@ -55,7 +55,7 @@ When interpreting the results, please consider the following:
 ## Contact
 For any questions, contact wanjera@msn.com
 
-## Calculating T-tests
+## Calculating T-tests and effect sizes
 
 T-tests are calculated using the following R script integrated into Tableau:
 
@@ -70,4 +70,17 @@ if (length(table(.arg2)) != 2){
 ", SUM([Dep_Var_Selected]), MAX([Group name]))
 
 
+Effect size is calculated using the following R script integrated into Tableau (ensure 'effsize' is installed):
+
+```r
+SCRIPT_REAL("
+library(effsize)
+
+if (length(table(.arg2)) != 2){
+   -9
+} else {
+   d <- cohen.d(.arg1 ~ .arg2)$estimate
+   d
+}
+", SUM([Dep_Var_Selected]), MAX([Group name2]))
 
