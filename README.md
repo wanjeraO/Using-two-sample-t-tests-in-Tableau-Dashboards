@@ -13,11 +13,6 @@ The primary purpose of this workbook is to:
 
 In today's data-driven world, making informed decisions based on statistical analysis is crucial. This project showcases the integration of t-tests, a fundamental statistical test, into interactive dashboards. By leveraging Tableau and R, this workbook allows users to perform rigorous data analysis and visualize the results in a user-friendly manner. Whether you're a data analyst, researcher, or decision-maker, this tool will help you draw meaningful insights from your data.
 
-## Important Notes
-- The workbook uses simulated data and does not represent real-life scenarios. It is intended for demonstration and educational purposes only.
-- Only two groups can be selected at a time for comparison. Selecting more than two groups will result in an error.
-- The dashboard may take some time to perform calculations, especially for large datasets.
-
 ## Project Description
 
 This project aims to showcase the application of statistical tests, specifically t-tests, in interactive dashboards created with Tableau. By incorporating these statistical methods, users can perform rigorous data analysis and draw meaningful insights directly within their visualizations.
@@ -52,6 +47,11 @@ When interpreting the results, please consider the following:
 
 5. **Sample Size**: Larger sample sizes tend to produce smaller p-values. Consider the sample size when interpreting significance.
 
+## Important Notes
+- The workbook uses simulated data and does not represent real-life scenarios. It is intended for demonstration and educational purposes only.
+- Only two groups can be selected at a time for comparison. Selecting more than two groups will result in an error.
+- The dashboard may take some time to perform calculations, especially for large datasets.
+  
 ## Contact
 For any questions, contact wanjera@msn.com
 
