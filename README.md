@@ -72,7 +72,6 @@ if (length(table(.arg2)) != 2){
 
 Effect size is calculated using the following R script integrated into Tableau (ensure 'effsize' is installed):
 
-
 ```r
 SCRIPT_REAL("
 library(effsize)
@@ -83,5 +82,29 @@ if (length(table(.arg2)) != 2){
    d <- cohen.d(.arg1 ~ .arg2)$estimate
    d
 }
-", SUM([Dep_Var_Selected]), MAX([Group name2]))
+", SUM([Dep_Var_Selected]), MAX([Group name]))
+```
 
+### Explanation
+
+- **T-tests**: This script performs a two-sample t-test to compare the means of two groups.
+  - **Parameters**:
+    - `.arg1`: Dependent variable (e.g., test scores).
+    - `.arg2`: Grouping variable (e.g., group labels).
+
+- **Effect Sizes**: This script calculates the effect size using Cohen's d from the `effsize` package.
+  - **Parameters**:
+    - `.arg1`: Dependent variable (e.g., test scores).
+    - `.arg2`: Grouping variable (e.g., group labels).
+
+### Requirements
+
+- **Tableau**: Ensure you have Tableau installed to open and interact with the workbook.
+- **R and Rserve**: Required for running the embedded R scripts. Install R and start Rserve with the command `Rserve()` in your R console.
+
+## Setup Instructions
+
+1. **Install R and Rserve**: Follow the instructions to install R from [CRAN](https://cran.r-project.org/) and install Rserve by running `install.packages("Rserve")` in R.
+2. **Start Rserve**: Start Rserve by running `Rserve()` in your R console.
+3. **Connect Tableau to Rserve**:
+   - In Tableau, go to `Help` >
