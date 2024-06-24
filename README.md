@@ -52,6 +52,8 @@ When interpreting the results, please consider the following:
 
 5. **Sample Size**: Larger sample sizes tend to produce smaller p-values. Consider the sample size when interpreting significance.
 
+## Contact
+wanjera@msn.com
 
 ## Calculating T-tests
 
@@ -68,5 +70,4 @@ if (length(table(.arg2)) != 2){
 ", SUM([Dep_Var_Selected]), MAX([Group name]))
 
 
-## Contact
-wanjera@msn.com
+
