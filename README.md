@@ -53,7 +53,7 @@ When interpreting the results, please consider the following:
 5. **Sample Size**: Larger sample sizes tend to produce smaller p-values. Consider the sample size when interpreting significance.
 
 ## Contact
-wanjera@msn.com
+For any questions, contact wanjera@msn.com
 
 ## Calculating T-tests
 
