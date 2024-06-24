@@ -70,7 +70,7 @@ if (length(table(.arg2)) != 2){
 ", SUM([Dep_Var_Selected]), MAX([Group name]))
 
 
-Effect size is calculated using the following R script integrated into Tableau (ensure 'effsize' is installed):
+### Effect size is calculated using the following R script integrated into Tableau (ensure 'effsize' is installed):
 
 ```r
 SCRIPT_REAL("
