@@ -52,8 +52,6 @@ When interpreting the results, please consider the following:
 - Only two groups can be selected at a time for comparison. Selecting more than two groups will result in an error.
 - The dashboard may take some time to perform calculations, especially for large datasets.
   
-## Contact
-For any questions, contact wanjera@msn.com
 
 ## Calculating T-tests and effect sizes
 
@@ -113,3 +111,6 @@ Connection Type: Select Rserve.
 Host: Enter the hostname (e.g., localhost if running locally).
 Port: Enter the port number (default is 6311 for Rserve).
 Close the dialog.
+
+## Contact
+For any questions, contact wanjera@msn.com
