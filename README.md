@@ -114,3 +114,11 @@ Close the dialog.
 
 ## Contact
 For any questions, contact wanjera@msn.com
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+This project was inspired by other contributors on GitHub who have tackled related projects. I acknowledge the contributions of the open-source community and various implementations of code and Tableau dashboard calculations used in the project.
