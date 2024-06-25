@@ -24,7 +24,7 @@ This project showcases the application of statistical tests, specifically t-test
 
 ## How to Use the Workbook
 
-1. **Download the Workbook**:  [Download the workbook](./T-Test%20Grp%20Differences%20Demo.twbx)
+1. **Link to Download the Workbook**:  [Download here](./T-Test%20Grp%20Differences%20Demo.twbx)
 2. **Open in Tableau**: Open the downloaded workbook in Tableau.
 3. **Explore the Dashboard**: Use the interactive features to explore the different sheets and understand the statistical analyses.
 4. **Select only two groups**: In the dashboard, select two groups you wish to compare from the available options.
